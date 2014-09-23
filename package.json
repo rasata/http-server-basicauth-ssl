@@ -1,0 +1,83 @@
+{
+  "name": "http-server-basicauth-ssl",
+  "version": "1.0.0",
+  "author": "Waterzo rasatavohary@gmail.com",
+  "description": "a simple zero-configuration command-line http server securised with https & basicauth",
+  "main": "./lib/http-server-basicauth-ssl.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rasata/http-server-basicauth-ssl.git"
+  },
+  "keywords": [
+    "cli",
+    "command"
+  ],
+  "scripts": {
+    "start": "node ./bin/http-server-basicauth-ssl",
+    "test": "vows --spec --isolate"
+  },
+  "contributors": [
+      {
+          "name": "Zo Rasatavohary",
+          "email": "rasatavohary@gmail.com"
+      },
+      {
+      "name": "Marak Squires",
+      "email": "marak.squires@gmail.com"
+    },
+    {
+      "name": "Charlie McConnell",
+      "email": "charlie@charlieistheman.com"
+    },
+    {
+      "name": "Joshua Holbrook",
+      "email": "josh.holbrook@gmail.com"
+    },
+    {
+      "name": "Maciej Małecki",
+      "email": "maciej.malecki@notimplemented.org"
+    },
+    {
+      "name": "Matthew Bergman",
+      "email": "mzbphoto@gmail.com"
+    },
+    {
+      "name": "brad dunbar",
+      "email": "dunbarb2@gmail.com"
+    },
+    {
+      "name": "Dominic Tarr"
+    },
+    {
+      "name": "Travis Person",
+      "email": "travis.person@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "colors": "0.6.x",
+    "optimist": "0.5.x",
+    "union": "0.3.x",
+    "ecstatic": "0.4.x",
+    "portfinder": "0.2.x",
+    "opener": "~1.3.0",
+    "basic-auth-parser": "0.0.2"
+  },
+  "devDependencies": {
+    "vows": "0.7.x",
+    "request": "2.21.x"
+  },
+  "bugs": {
+    "url": "https://github.com/rasata/http-server-basicauth-ssl/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rasata/http-server-basicauth-ssl/raw/master/LICENSE"
+    }
+  ],
+  "analyze": false,
+  "preferGlobal": "true",
+  "bin": {
+    "http-server": "./bin/http-server-basicauth-ssl"
+  }
+}
