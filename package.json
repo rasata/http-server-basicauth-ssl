@@ -78,6 +78,6 @@
   "analyze": false,
   "preferGlobal": "true",
   "bin": {
-    "http-server": "./bin/http-server-basicauth-ssl"
+    "http-server-basicauth-ssl": "./bin/http-server-basicauth-ssl"
   }
 }
