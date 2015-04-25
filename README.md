@@ -1,4 +1,4 @@
-# http-server: a command-line http server
+# http-server-basicauth-ssl: a command-line http server
 
 `http-server-basicauth-ssl` is a simple, zero-configuration command-line securised Http Server based on :
 - http-server
