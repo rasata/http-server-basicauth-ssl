@@ -37,13 +37,13 @@ This will install `http-server-basicauth-ssl ` globally so that it may be run fr
 
 ## Usage
 
-### Starting http-server locally
+### Starting http-server-basicauth-ssl locally
 
      node bin/http-server-basicauth-ssl 
 
 *Now you can visit http://localhost:8080 to view your server*
 
-### Deploy http-server to nodejitsu
+### Deploy http-server-basicauth-ssl to nodejitsu
 
      jitsu deploy
 

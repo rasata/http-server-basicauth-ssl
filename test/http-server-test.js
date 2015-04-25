@@ -3,14 +3,14 @@ var assert = require('assert'),
     fs = require('fs'),
     vows = require('vows'),
     request = require('request'),
-    httpServer = require('../lib/http-server-basicauth-ssl');
+    httpServerBasicAuthSsl = require('../lib/http-server-basicauth-ssl');
 
 var root = path.join(__dirname, 'fixtures', 'root');
 
-vows.describe('http-server').addBatch({
-  'When http-server is listening on 8081 with username "bert" and password "bertington"': {
+vows.describe('http-server-basicauth-ssl').addBatch({
+  'When http-server-basicauth-ssl is listening on 8081 with username "bert" and password "bertington"': {
     topic: function () {
-      var server = httpServer.createServer({
+      var server = httpServerBasicAuthSsl.createServer({
         root: root,
         headers: {
           'Access-Control-Allow-Origin': '*',
@@ -48,9 +48,9 @@ vows.describe('http-server').addBatch({
       }
     }
   },
-  'When http-server is listening on 8080': {
+  'When http-server-basicauth-ssl is listening on 8080': {
     topic: function () {
-      var server = httpServer.createServer({
+      var server = httpServerBasicAuthSsl.createServer({
         root: root,
         headers: {
           'Access-Control-Allow-Origin': '*',
