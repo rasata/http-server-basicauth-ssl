@@ -1,6 +1,6 @@
 {
   "name": "http-server-basicauth-ssl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Waterzo rasatavohary@gmail.com",
   "description": "a simple zero-configuration command-line http server securised with https & basicauth",
   "main": "./lib/http-server-basicauth-ssl.js",
@@ -17,11 +17,11 @@
     "test": "vows --spec --isolate"
   },
   "contributors": [
-      {
-          "name": "Zo Rasatavohary",
-          "email": "rasatavohary@gmail.com"
-      },
-      {
+    {
+      "name": "Zo Rasatavohary",
+      "email": "rasatavohary@gmail.com"
+    },
+    {
       "name": "Marak Squires",
       "email": "marak.squires@gmail.com"
     },
@@ -57,7 +57,7 @@
     "colors": "0.6.x",
     "optimist": "0.5.x",
     "union": "0.3.x",
-    "ecstatic": "0.4.x",
+    "ecstatic": "~>2.0.0",
     "portfinder": "0.2.x",
     "opener": "~1.3.0",
     "basic-auth-parser": "0.0.2"
